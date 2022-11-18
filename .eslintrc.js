@@ -8,6 +8,9 @@ module.exports = {
   env: {
     browser: true,
   },
+  ignorePatterns: [
+    '.eslintrc.js',
+  ],
   rules: {
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
