@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-oci",
+  "name": "eslint-config-oci-react",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orangecapinnovative/eslint-oci.git"
+    "url": "git+https://github.com/orangecapinnovative/eslint-oci-react.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orangecapinnovative/eslint-oci/issues"
+    "url": "https://github.com/orangecapinnovative/eslint-oci-react/issues"
   },
-  "homepage": "https://github.com/orangecapinnovative/eslint-oci#readme",
+  "homepage": "https://github.com/orangecapinnovative/eslint-oci-react#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^12.2.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
