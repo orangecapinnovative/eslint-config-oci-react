@@ -75,11 +75,13 @@ module.exports = {
     camelcase: 0,
     'consistent-return': 0,
     'global-require': 0,
-    'max-len': [
-      1,
-      120,
-      2,
-    ],
+    'max-len': ['error', 200, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
     'new-cap': [
       2,
       {
