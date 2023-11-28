@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/orangecapinnovative/eslint-oci-react#readme",
   "devDependencies": {
-    "eslint": "^8.42.0",
+    "eslint": "^8.54.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
     "@typescript-eslint/parser": "^6.13.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -28,6 +28,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "eslint": "^8.42.0"
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.0"
   }
 }
