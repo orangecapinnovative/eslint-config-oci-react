@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oci-react",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/orangecapinnovative/eslint-oci-react#readme",
   "dependencies": {
-    "eslint": "^8.54.0",
-    "@typescript-eslint/eslint-plugin": "^6.13.0",
-    "@typescript-eslint/parser": "^6.13.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "^14.0.3",
     "eslint-plugin-import": "^2.29.0",
@@ -28,7 +28,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "eslint": "^8.54.0",
-    "typescript": "^5.3.0"
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.2"
   }
 }
